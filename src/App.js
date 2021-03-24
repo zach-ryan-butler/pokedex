@@ -1,7 +1,6 @@
-import './App.css';
+import React from 'react';
+import Home from './containers/Home';
 
-function App() {
-  return <div className='App'>Hello World</div>;
+export default function App() {
+  return <Home />;
 }
-
-export default App;
